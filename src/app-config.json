@@ -1,0 +1,9 @@
+{
+  "host": "http://localhost:3000",
+  "paths": {
+    "counters": "/api/v1/counters",
+    "counter": "/api/v1/counter",
+    "counterInc": "/api/v1/counter/inc",
+    "counterDec": "/api/v1/counter/dec"
+  }
+}

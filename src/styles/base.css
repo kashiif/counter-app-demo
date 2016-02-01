@@ -1,0 +1,145 @@
+html, body {
+    height:100%;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.h1, h1 {
+    font-size: 26px;
+}
+
+.content {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, button {
+    border-radius: 0 !important;
+}
+
+.icon {
+    text-indent: -9999px;
+    background-size: contain !important;
+    display: inline-block;
+}
+
+.icon-small {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-delete {
+    background: url(svg/delete.svg#icon);
+}
+.svg-delete {
+    stroke: red;
+}
+
+.icon-edit {
+    background: url(svg/edit.svg);
+}
+
+.icon-plus {
+    background: url(svg/plus.svg);
+}
+
+.icon-minus {
+    background: url(svg/minus.svg);
+}
+
+.relative {
+    position: relative;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.zero-height {
+    height: 0;
+    min-height: 0;
+    line-height: 0;
+}
+
+.btn-action {
+    margin-right: 15px;
+}
+
+.btn-small {
+    width: 30px;
+    height: 30px;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.padding-top-md {
+    padding-top: 15px;
+}
+
+.v-padding-md {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.margin-right-sm {
+    margin-right: 10px;
+}
+
+.margin-bottom-md {
+    margin-bottom: 15px;
+}
+
+
+.no-overflow {
+    overflow: hidden;
+}
+
+
+.fade-transition {
+    opacity: 1;
+    transition: opacity 700ms ease-in;
+}
+
+.fadeout {
+    opacity: 0.01;
+}
+
+
+.app-header, .app-body {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.app-header {
+    top: 0;
+}
+
+.app-body {
+    top: 120px;
+    height: calc(100% - 120px);
+    overflow: auto;
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .no-padding-xs {
+        padding: 0;
+    }
+}
+

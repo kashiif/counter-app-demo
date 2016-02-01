@@ -1,0 +1,59 @@
+.counter-item {
+    background-color: #ffffff;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.counter-item-info {
+    padding-right: 45px;
+}
+
+.counter-item-name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+.counter-item-actions-xs > button {
+    margin-top: 15px;
+}
+
+.counter-item-info > .counter-item-actions {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background: inherit;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.counteritem-enter {
+    transform: translateX(-100%);
+}
+
+.counteritem-enter.counteritem-enter-active {
+    transform: translateX(0);
+    transition: transform 350ms ease-in;
+}
+
+.counteritem-leave {
+    transform: translateX(0);
+}
+
+.counteritem-leave.counteritem-leave-active {
+    transform: translateX(-100%);
+    transition: transform 350ms ease-in;
+}
+
+button > .icon {
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+@media only screen and (min-width : 768px) {
+    .counter-item-info > .counter-item-actions {
+        width: auto;
+        right: -10px;
+    }
+}
