@@ -1,3 +1,24 @@
+# My Implementation
+
+The application is built using [Webpack](https://webpack.github.io/) and [React](https://facebook.github.io/react/). 
+
+For the first time do a `npm install`.
+
+To run dev server, run `npm start` and open `http://localhost:3000` in your browser.
+
+To generate frontend bundle, run `npm run build`. The static files would be generated in `dist` directory. Run `npm run serve:dist` to view the bundled application
+
+## Improvements 
+
+Some improvements that I would like to do to current implementation:
+
+* UX: Confirm before deleting a counter (with count > 0)  in a non-obstructive manner.
+
+* Use Less and include only needed bootsratp less files (not the whole of bootstrap)
+
+* Split current `app.js` bundle to 'vendor.js' and `app.js` to let browser load the two files asynchronously and hence faster delivery. 
+
+
 # SITEPOINT FRONTEND TEST
 
 You need to create a simple counter application that can do the following:
